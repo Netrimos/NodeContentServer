@@ -72,7 +72,7 @@ exports.processRoute = function(req, res){
 		"page" : pageVal,
 		"language" : langVal
 	};*/
-	res.send('Serving Release: ' + lobVal + ' v.' + buildVal + ' on ' + pageVal + ' in ' + langVal);
+	res.send('Serving Release-Build-Page-Language: ' + lobVal + ' v.' + buildVal + ' on ' + pageVal + ' in ' + langVal);
 }
 
 //exports.requestObject = {"lob" : lobVal,"page" : pageVal};
